@@ -66,6 +66,12 @@ li {
         width: 100%;
     }
 
+    .secondtxt {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0rem 8rem;
+    }
     
 
     /*works section*/
@@ -118,6 +124,15 @@ li {
         color: var(--subheading);
     }
 
+    /*contact section*/
+
+    .contact {
+        margin-top: 20rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        border-radius: 10rem;
+        padding: 8rem 0rem;
+    }
    
 
 }
