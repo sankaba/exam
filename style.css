@@ -54,6 +54,14 @@ li {
     background-color: var(--section);
 }
 
+/* websites and webdesign styling*/
+
+iframe {
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 @media (min-width: 350px) {
@@ -187,5 +195,29 @@ li {
         line-height: 3rem;
     }
    
+    /* websites and webdesign page styling */
 
+    .adastra {
+        background-color: var(--section);
+        padding: 6rem 1.6rem;
+        margin: 0rem 4rem;
+        border-radius: 10rem;
+        color: var(--heading);
+    }
+
+    .damhsa {
+        background-color: var(--section);
+        padding: 6rem 1.6rem;
+        margin: 0rem 4rem;
+        border-radius: 10rem;
+        color: var(--heading);
+    }
+    
+    .orchil {
+        background-color: var(--section);
+        padding: 6rem 1.6rem;
+        margin:  0rem 4rem 20rem 4rem;
+        border-radius: 10rem;
+        color: var(--heading);
+    }
 }
