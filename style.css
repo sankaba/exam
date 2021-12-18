@@ -28,9 +28,6 @@ ul {
     margin: 1rem;
 }
 
-li {
-    color: var(--section);
-}
 
 .bottom-nav img {
     width: 70%;
@@ -71,11 +68,10 @@ iframe {
         margin-top: 3rem;
     }
 
-
     /* landing picture styling */
 
     .img1 {
-        display: none !important;
+        display: none;
     }
 
     .img2 {
@@ -85,7 +81,7 @@ iframe {
     /* navigation styling */
 
     .nav {
-        display: none !important;
+        display: none;
     }
 
     .bottom-nav {
@@ -367,7 +363,7 @@ iframe {
     /* landing picture styling */
 
     .img1 {
-        display: none !important;
+        display: none;
     }
 
     .img2 {
@@ -377,7 +373,7 @@ iframe {
     /* navigation styling */
 
     .nav {
-        display: none !important;
+        display: none;
     }
 
     .bottom-nav {
@@ -654,169 +650,185 @@ iframe {
         margin-bottom: 9rem;
     }
 
-    @media (min-width: 1024px) {
-        h1 {
-            margin-left: 2rem;
-        }
+}    
+
+@media (min-width: 1024px) {
+    h1 {
+        margin-left: 6rem;
+        margin-bottom: 1rem;
+    }
     
-        #web {
-            margin-top: 3rem;
-        }
+    #web {
+        margin-top: 3rem;
+    }
     
-        /* landing picture styling */
+    /* landing picture styling */
     
-        .img1 {
-            width: 100%;
-        }
+    .img1 {
+        display: block;
+        width: 100%;
+    }
     
-        .img2 {
-            display: none;
-        }
+    .img2 {
+        display: none;
+    }
     
-        /* navigation styling */
+    /* navigation styling */
     
-        .nav {
-            display: flex;
-            flex-direction: row;
-        }
-    
-        .bottom-nav {
-            display: none !important;
-        }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    li {
+        color: var(--section);
+        background-color: unset;
+        box-shadow: unset;
+
+    }
 
     
-        /* "yes its comic sans" styling */
+    .bottom-nav {
+        display: none;
+    }
+
     
-        .secondtxt {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            margin: 20rem 8rem;
-        }
+    /* "yes its comic sans" styling */
+    
+    .secondtxt {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20rem 24rem;
+    }
         
     
-        /*works section*/
+    /*works section*/
     
-        .works {
-            margin-top: 20rem;
-        }
-    
-        .butt img {
-            display: block;
-            width: 60%;
-            margin: 0 auto;
-            box-shadow: 5px 5px 8px #000;
-        }
-    
-        .works h3 {
-            margin-bottom: 2rem;
-        }
-    
-        /* animation for the titles of body of work*/
-    
-        .move {
-            color: #fff;
-            font-size: 15px;
-            letter-spacing: 5px;
-            
-    
-            position: relative;
-            animation-name: subheadings;
-            animation-duration: 8s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-    
-        }
-    
-        @keyframes subheadings {
-            from {left: 12px;}
-            to {left: 102px;}
-        }
-    
-        /*about section*/
-    
-        .about {
-            margin-top: 20rem;
-        }
-    
-        .designer {
-            display: block;
-            width: 50%;
-            margin: 0 auto;
-            border-radius: 8rem;
-        }
-    
-        .abouttxt {
-            margin: 1rem 7rem 0rem 7rem;
-            color: var(--subheading);
-        }
-    
-        /*contact section*/
-    
-        .contact {
-            margin-top: 20rem;
-            margin-left: 4rem;
-            margin-right: 4rem;
-            border-radius: 10rem;
-            padding: 8rem 0rem;
-        }
-    
-        .contact p {
-            margin-left: 3rem;
-            line-height: 3rem;
-        }
-       
-        /* websites and webdesign page styling */
-    
-        .adastra {
-            background-color: var(--section);
-            padding: 9rem 8rem;
-            margin: 0rem 5rem;
-            border-radius: 23rem;
-            color: var(--heading);
-        }
-    
-        .damhsa {
-            background-color: var(--section);
-            padding: 9rem 8rem;
-            margin: 0rem 5rem;
-            border-radius: 23rem;
-            color: var(--heading);
-        }
-    
-        .damhsa img {
-            width: 92%;
-            display: block;
-            margin: 0 auto;
-            padding-top: 0.5rem;
-            padding-top: 0.5rem;
-        }
-    
-        .orchil {
-            background-color: var(--section);
-            padding: 9rem 8rem;
-            margin:  0rem 5rem 17rem 5rem;
-            border-radius: 23rem;
-            color: var(--heading);
-        }
-    
-        .orchildesign {
-            display: flex;
-            flex-direction: row;
-        }
-    
-        .orchildesign img {
-            width: 45%;
-            margin: 0 auto;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
-    
-        footer img {
-            width: 30%;
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 9rem;
-        }
+    .works {
+        margin-top: 20rem;
     }
-}
+    
+    .butt img {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        box-shadow: 5px 5px 8px #000;    
+    }
+    
+    .works h3 {
+        margin-bottom: 2rem;
+    }
+    
+    /* animation for the titles of body of work*/
+    
+    .move {
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 5px;
+        position: relative;
+        animation-name: subheadings;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    
+    }
+    
+    @keyframes subheadings {
+        from {left: 22px;}
+        to {left: 880px;}
+    }
+    
+    /*about section*/
+    
+    .about {
+        margin-top: 20rem;
+    }
+    
+    .designer {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 8rem;
+    }
+    
+    .abouttxt {
+        margin: 1rem 7rem 0rem 7rem;
+        color: var(--subheading);
+    }
+    
+    /*contact section*/
+    
+    .contact {
+        margin-top: 20rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        border-radius: 10rem;
+        padding: 8rem 0rem;
+        }
+    
+    .contact p {
+        margin-left: 3rem;
+        line-height: 3rem;
+    }
+       
+    /* websites and webdesign page styling */
+    
+    .adastra {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin: 0rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+    }
+    
+    .damhsa {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin: 0rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+    }
+    
+    .damhsa img {
+        width: 92%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    
+    .orchil {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin:  0rem 5rem 17rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+    }
+    
+    .orchildesign {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .orchildesign img {
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    footer img {
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 9rem;
+    }
+}  
