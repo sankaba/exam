@@ -882,4 +882,121 @@ iframe {
         margin: 0 auto;
         margin-bottom: 1rem;
     } 
+
+    /* logo page styling */
+
+    .school {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin: 0rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .honeycoasta {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin: 0rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .adastra-l {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin: 0rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .orchil-l {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin: 0rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .swingit-l {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin: 0rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .bees {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin: 0rem 5rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .tattoo {
+        background-color: var(--section);
+        padding: 9rem 8rem;
+        margin:  0rem 5rem 17rem 5rem;
+        margin-bottom: 10rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+    }
+
+
+    .logoflex-r {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logos img {
+        width: 55%;
+        display: block;
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    .tattoo-flex img {
+        width: 35%;
+    }
+
+    .orchil-l img {
+        width: 90%;
+    }
 }
