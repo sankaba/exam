@@ -26,14 +26,12 @@ i {
     color: var(--subheading);
 }
 
-
 /* nav bar styling */
 
 ul {
     list-style-type: none;
     margin: 1rem;
 }
-
 
 .bottom-nav img {
     width: 70%;
@@ -45,7 +43,6 @@ ul {
     margin: 0 auto;
     width: 100%;
     color: var(--section);
-
 }
 
 .hook2 {
@@ -64,9 +61,6 @@ iframe {
     display: block;
     margin: 0 auto;
 }
-
-
-
 
 @media (min-width: 320px) {
     h1 {
@@ -133,7 +127,6 @@ iframe {
         margin: 10rem 5rem;
     }
     
-
     /*works section*/
 
     .works {
@@ -158,13 +151,12 @@ iframe {
         font-size: 15px;
         letter-spacing: 5px;
         position: relative;
-        /* source code for animation: 
-        https://www.w3schools.com/css/css3_animations.asp */
+    /* source code for animation: 
+    https://www.w3schools.com/css/css3_animations.asp */
         animation-name: subheadings;
         animation-duration: 8s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-
     }
 
     @keyframes subheadings {
@@ -172,7 +164,7 @@ iframe {
         to {left: 80px;}
     }
 
-     /* end of animation source code */
+    /* end of animation source code */
 
     /*about section*/
 
@@ -368,8 +360,6 @@ iframe {
     .orchil-l img {
         width: 90%;
     }
-
-
 }
 
 @media (min-width: 768px) {
@@ -440,7 +430,6 @@ iframe {
         margin: 20rem 8rem;
     }
     
-
     /*works section*/
 
     .works {
@@ -465,8 +454,8 @@ iframe {
         font-size: 15px;
         letter-spacing: 5px;
         position: relative;
-        /* source code for animation: 
-        https://www.w3schools.com/css/css3_animations.asp */
+    /* source code for animation: 
+    https://www.w3schools.com/css/css3_animations.asp */
         animation-name: subheadings;
         animation-duration: 8s;
         animation-iteration-count: infinite;
@@ -569,10 +558,9 @@ iframe {
         margin-bottom: 9rem;
     }
 
+    /* "videos" styling */
 
-     /* "videos" styling */
-
-     .cliche {
+    .cliche {
         background-color: var(--section);
         padding: 8rem 9rem;
         margin: 0rem 2rem;
@@ -596,9 +584,9 @@ iframe {
         width: 80%;
     }
     
-     /* logo page styling */
+    /* logo page styling */
 
-     .school {
+    .school {
         background-color: var(--section);
         padding: 9rem 8rem;
         margin: 0rem 5rem;
@@ -679,10 +667,10 @@ iframe {
         margin: 0 auto;
         margin-bottom: 9rem;
     }
-
 }    
 
 @media (min-width: 1024px) {
+    
     h1 {
         margin-left: 6rem;
         margin-bottom: 1rem;
