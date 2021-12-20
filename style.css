@@ -678,10 +678,11 @@ iframe {
     .nav {
         display: block;
         margin: 0 auto;
-        position: fixed;
+        position: sticky;
         left: 0;
         right: 0;
-        padding-bottom: 12rem;
+        padding-top: 1rem;
+        
         
     }
 
@@ -814,7 +815,9 @@ iframe {
     }
        
     /* websites and webdesign page styling */
-    
+     .websites {
+         margin-top: 5rem;
+     }
 
     .adastra {
         background-color: var(--section);
@@ -822,10 +825,11 @@ iframe {
         margin: 0rem 5rem;
         border-radius: 23rem;
         color: var(--heading);
-    }
-
-    .flex-adastra {
         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
     }
     
     .damhsa {
@@ -834,40 +838,48 @@ iframe {
         margin: 0rem 5rem;
         border-radius: 23rem;
         color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
     }
     
     .damhsa img {
-        width: 92%;
-        display: block;
-        margin: 0 auto;
-        padding-top: 0.5rem;
-        padding-top: 0.5rem;
+        width: 95%;
+        
     }
     
     .orchil {
         background-color: var(--section);
         padding: 9rem 8rem;
-        margin:  0rem 5rem 17rem 5rem;
+        margin:  0rem 5rem 14rem 5rem;
         border-radius: 23rem;
         color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
     }
     
     .orchildesign {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        padding: unset;
     }
     
     .orchildesign img {
-        width: 45%;
-        margin: 0 auto;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        width: 35%;
+        margin-left: unset;
+        margin-right: unset;
+        padding: unset;
     }
     
     footer img {
-        width: 30%;
+        width: 20%;
         display: block;
         margin: 0 auto;
-        margin-bottom: 9rem;
+        margin-bottom: 1rem;
     } 
 }
