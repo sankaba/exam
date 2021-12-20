@@ -158,6 +158,8 @@ iframe {
         font-size: 15px;
         letter-spacing: 5px;
         position: relative;
+        /* source code for animation: 
+        https://www.w3schools.com/css/css3_animations.asp */
         animation-name: subheadings;
         animation-duration: 8s;
         animation-iteration-count: infinite;
@@ -169,6 +171,8 @@ iframe {
         from {left: 12px;}
         to {left: 80px;}
     }
+
+     /* end of animation source code */
 
     /*about section*/
 
@@ -351,6 +355,7 @@ iframe {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .logos img {
@@ -460,6 +465,8 @@ iframe {
         font-size: 15px;
         letter-spacing: 5px;
         position: relative;
+        /* source code for animation: 
+        https://www.w3schools.com/css/css3_animations.asp */
         animation-name: subheadings;
         animation-duration: 8s;
         animation-iteration-count: infinite;
@@ -471,6 +478,8 @@ iframe {
         from {left: 12px;}
         to {left: 102px;}
     }
+
+    /* end of animation source code */
 
     /*about section*/
 
@@ -708,8 +717,6 @@ iframe {
         left: 0;
         right: 0;
         padding-top: 1rem;
-        
-        
     }
 
     .nav ul {
@@ -775,6 +782,8 @@ iframe {
         font-size: 15px;
         letter-spacing: 5px;
         position: relative;
+    /* source code for animation: 
+    https://www.w3schools.com/css/css3_animations.asp */
         animation-name: subheadings;
         animation-duration: 10s;
         animation-iteration-count: infinite;
@@ -786,6 +795,8 @@ iframe {
         from {left: 22px;}
         to {left: 23rem;}
     }
+
+    /* end of animation source code */
     
     /*about section*/
     
@@ -815,7 +826,6 @@ iframe {
     .diftext {
         margin-right: 8rem;
        color: var(--subheading);
-    
     }
     
     /*contact section*/
@@ -841,9 +851,10 @@ iframe {
     }
        
     /* websites and webdesign page styling */
-     .websites {
-         margin-top: 5rem;
-     }
+
+    .websites {
+        margin-top: 5rem;
+    }
 
     .adastra {
         background-color: var(--section);
@@ -873,7 +884,7 @@ iframe {
     
     .damhsa img {
         width: 95%;
-        
+    
     }
     
     .orchil {
@@ -929,9 +940,6 @@ iframe {
         align-items: center;
     }
 
-    
-
-
     .howto {
         background-color: var(--section);
         padding: 8rem 9rem;
@@ -944,7 +952,6 @@ iframe {
         gap: 1rem;
         align-items: center;
     }
-
 
     /* logo page styling */
 
@@ -1039,7 +1046,6 @@ iframe {
         gap: 1rem;
         align-items: center;
     }
-
 
     .logoflex-r {
         display: flex;
