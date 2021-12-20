@@ -21,6 +21,12 @@ h1 {
     color: var(--heading);
 }
 
+i {
+    text-decoration: none;
+    color: var(--subheading);
+}
+
+
 /* nav bar styling */
 
 ul {
@@ -66,6 +72,11 @@ iframe {
     h1 {
         margin-left: 2rem;
         margin-top: 3rem;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--heading);
     }
 
     /* landing picture styling */
@@ -173,6 +184,11 @@ iframe {
     }
 
     .abouttxt {
+        margin: 1rem 7rem 0rem 7rem;
+        color: var(--subheading);
+    }
+
+    .diftext {
         margin: 1rem 7rem 0rem 7rem;
         color: var(--subheading);
     }
@@ -354,6 +370,11 @@ iframe {
 @media (min-width: 768px) {
     h1 {
         margin-left: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--heading);
     }
 
     #web {
@@ -657,6 +678,11 @@ iframe {
         margin-left: 6rem;
         margin-bottom: 1rem;
     }
+
+    a {
+        text-decoration: none;
+        color: var(--section);
+    }
     
     #web {
         margin-top: 3rem;
@@ -882,6 +908,43 @@ iframe {
         margin: 0 auto;
         margin-bottom: 1rem;
     } 
+
+    /* video page styling */
+
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+
+    .cliche {
+        background-color: var(--section);
+        padding: 8rem 9rem;
+        margin: 0rem 2rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    
+
+
+    .howto {
+        background-color: var(--section);
+        padding: 8rem 9rem;
+        margin:  0rem 1rem 17rem 1rem;
+        border-radius: 23rem;
+        color: var(--heading);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 1rem;
+        align-items: center;
+    }
+
 
     /* logo page styling */
 
